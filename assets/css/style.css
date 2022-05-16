@@ -304,4 +304,12 @@ column-gap: 0px;
         text-align: center;
         padding: 0 20px;
     }
+    #photos {
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
+    }
 }
